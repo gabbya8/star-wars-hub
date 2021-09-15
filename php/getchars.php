@@ -25,13 +25,17 @@ h1{
 
 <?php
 $q = intval($_GET['q']);
+$hostname = 'sql5.freesqldatabase.com';
+$username = 'sql5437274';
+$password = 'nGMQEAGbqt';
+$db = 'sql5437274';
 
-$con = mysqli_connect('localhost:3308','dev04dbuser','FM04web2020','dev04db');
+$con = mysqli_connect($hostname, $username, $password, $db);
 if (!$con) {
     die('Could not connect: ' . mysqli_error($con));
 }
 
-mysqli_select_db($con,"ajax_demo");
+mysqli_select_db($con, $db);
 $sql="SELECT * FROM star_wars WHERE id = '".$q."'";
 $result = mysqli_query($con,$sql);
 $resultCheck = mysqli_num_rows($result);

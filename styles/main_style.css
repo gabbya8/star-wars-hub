@@ -469,11 +469,36 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: #34b7a7;
+  background: #3dc8b7;
 }
 
 #hero .btn-begin:hover {
+  background: #2c786f;
+}
+
+#hero .btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 40px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
   background: #3dc8b7;
+}
+
+#hero .btn:hover {
+  background: #2c786f;
+}
+
+.back-btn{
+  position: fixed;
+  left: 4%;
+  bottom: 4%;
 }
 
 @media (min-width: 1024px) {
@@ -633,7 +658,7 @@ section {
 }
 
 .hero-side span{
-  position: absolute;
+    position: absolute;
     width: 25%;
     height: 100%;
     background-color: var(--c);
@@ -643,6 +668,7 @@ section {
     transition: 0.5s;
     transition-delay: calc((var(--n) - 1) * 0.1s);
     z-index: -1;
+    
 }
 
 .hero-side a:hover{
@@ -650,7 +676,7 @@ section {
 }
 
 .hero-side:hover span{
-  transform: translateY(0) scale(2);
+  transform: translateY(0) scale(3.1);
 }
 
 .hero-side span:nth-child(1)
@@ -672,6 +698,7 @@ section {
 {
   --n: 4;
 }
+
 
 .hero-side a{
   color: blue;
@@ -716,7 +743,7 @@ section {
 }
 
 .villain-side:hover span{
-  transform: translateY(0) scale(2);
+  transform: translateY(0) scale(3.1);
 }
 
 .villain-side span:nth-child(1)
@@ -744,7 +771,8 @@ section {
 }
 
 .instructions{
-  padding-bottom: 20%;
+  padding-bottom: 15%;
+  text-align: center;
 }
 /*-------TYPEWRITER EFFECT ON CHARACTER INFO---------*/
 #show-char{

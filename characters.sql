@@ -45,16 +45,16 @@ CREATE TABLE IF NOT EXISTS `star_wars` (
 --
 
 INSERT INTO `star_wars` (`id`,`FirstName`, `LastName`, `Species`, `Affiliation`, 'Image', `Homeworld`) VALUES
-(1, 'Ahsoka', 'Tano', 'Togruta', 'Jedi Order','<img src=\'img/anakin.png'>', 'Shili'),
-(2, 'Anakin', 'Skywalker', 'Human', 'Sith','<img src=\'img/anakin.png'>', 'Tatooine'),
-(3, 'Ben', 'Solo', 'Human', 'Jedi Order','<img src=\'img/anakin.png'>', 'Chandrila');
-(4, 'Bo-Katan', 'Kryze', 'Human', 'Mandalorian Resistance', '<img src=\'img/bo-katan.png'>', 'Mandalore');
-(20, 'Obi-Wan', 'Kenobi', 'Human', 'Jedi Order', '<img src=\'img/obi-wan.png'>', 'Stewjon');
-(19, 'Maul','','Zabrak','Sith','<img src=\'img/maul.png'>', 'Dathomir');
-(24, 'Sheev', 'Palpatine','Human' ,'Sith', '<img src=\'img/palpatine.png'>', 'Naboo');
-(13, 'Jango', 'Fett', 'Human', 'Confederacy of Independent Systems', '<img src=\'img/jango.png'>', 'Concord Dawn');
-(10, 'Grievous', '', 'Kaleesh', 'Confederacy of Independent Systems', '<img src=\'img/grievous.png'>','Kalee');
-(7, 'Dooku', '', 'Human', 'Sith', '<img src=\'img/dooku.png'>', 'Serenno');
+(1, 'Ahsoka', 'Tano', 'Togruta', 'Jedi Order','img/ahsoka.png', 'Shili'),
+(2, 'Anakin', 'Skywalker', 'Human', 'Sith','img/anakin.png', 'Tatooine'),
+(3, 'Ben', 'Solo', 'Human', 'Jedi Order','img/ben_solo.png', 'Chandrila');
+(4, 'Bo-Katan', 'Kryze', 'Human', 'Mandalorian Resistance', 'img/bo-katan.png', 'Mandalore');
+(20, 'Obi-Wan', 'Kenobi', 'Human', 'Jedi Order', 'img/obi-wan.png', 'Stewjon');
+(19, 'Maul','','Zabrak','Sith','img/maul.png', 'Dathomir');
+(24, 'Sheev', 'Palpatine','Human' ,'Sith', 'img/palpatine.png', 'Naboo');
+(13, 'Jango', 'Fett', 'Human', 'Confederacy of Independent Systems', 'img/jango.png', 'Concord Dawn');
+(10, 'Grievous', '', 'Kaleesh', 'Confederacy of Independent Systems', 'img/grievous.png','Kalee');
+(7, 'Dooku', '', 'Human', 'Sith', 'img/dooku.png', 'Serenno');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
